@@ -32,3 +32,8 @@ TARGET_SUPPORTS_QUICK_TAP  := true
 # VoidUI Maintainer Flags
 VOID_MAINTAINER := ʙʜᴀꜱᴋᴀʀ
 CUSTOM_BUILD_TYPE := COMMUNITY
+
+# PixelLauncher Mod
+$(call inherit-product, vendor/PixelLauncherExtended/PixelLauncher.mk)
+ICONS_VARIANT := true
+PIXEL_LAUNCHER_VARIANT := glance12
